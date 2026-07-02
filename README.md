@@ -108,9 +108,9 @@ The goal of **CoolieConnect** is to digitize railway porter services by providin
 | 👤 User Registration           | ✅ Completed    |
 | 🔑 User Login                  | ✅ Completed    |
 | 📍 Google Maps Integration     | ✅ Completed    |
-| 📦 Booking Module              | 🔄 In Progress |
-| 💳 Payment Gateway Integration | 🔄 In Progress |
-| 👷 Real-Time Porter Tracking   | ⏳ Planned      |
+| 📦 Booking Module              | ✅ Completed    |
+| 💳 Payment Gateway Integration | 🔄 In Progress  |
+| 👷 Real-Time Porter Tracking   | ✅ Completed    |
 | 🤖 AI-Based Luggage Assistance | ⏳ Planned      |
 | 🔔 Push Notifications          | ⏳ Planned      |
 
