@@ -1,105 +1,96 @@
-# 🚉 CoolieConnect – Railway Porter Booking System
+🚉 CoolieConnect – Railway Porter Booking System
 
-## 📌 Overview
+CoolieConnect is a modern Android application that digitizes traditional railway porter (coolie) services by enabling passengers to book porters, estimate fares, make secure digital payments, and manage bookings directly from their smartphones.
 
-**CoolieConnect** is an Android application that modernizes traditional railway porter (coolie) services by allowing passengers to book porters digitally within railway stations. The app provides a smooth and secure booking experience with user authentication, location services, fare estimation, booking management, and online payments through an intuitive Material Design interface.
+📌 Overview
 
----
+CoolieConnect aims to simplify the porter booking process at railway stations by replacing the traditional manual approach with a smart, secure, and user-friendly mobile application. The app integrates authentication, Google Maps, AI-powered luggage assistance, QR-based payments, and booking management to provide a seamless travel experience.
 
-## ✨ Features
+✨ Features
+🔐 Authentication
+Firebase Authentication
+Secure User Registration
+User Login
+Password Validation
+User Profile Management
 
-### 🔐 Authentication
+📍 Location Services
+Google Maps SDK Integration
+Railway Station Selection
+Pickup Location Selection
+Destination Selection
+Distance-Based Fare Calculation
 
-* Firebase Authentication
-* User Registration
-* Secure User Login
-* User Profile Management
+🚉 Porter Booking
+Digital Porter Booking
+Dynamic Fare Estimation
+Booking Confirmation
+Booking History
+Real-Time Booking Management
 
-### 📱 User Interface
+🤖 AI-Based Luggage Assistance
+AI-powered luggage scanner
+Detects luggage quantity
+Suggests the recommended number of porters
+Improves booking accuracy and convenience
 
-* Modern Railway-Themed UI
-* Responsive Material Design
-* User Dashboard
-* Profile Screen
-* Booking History
-* Payment Screen
-* Payment Success Screen
+💳 Payment Gateway
+QR Code Payment
+Dynamic Payment Amount
+Payment Countdown Timer
+Payment Success Confirmation
+Secure Payment Flow
 
-### 📍 Location Services
+👤 User Dashboard
+Profile Management
+Booking History
+Previous Transactions
+Easy Navigation
 
-* Google Maps Integration
-* Railway Station Location Selection
-* Pickup & Destination Selection
+📱 Application Screens
+🔐 Login
+📝 Register
+🏠 Home Dashboard
+📍 Google Maps
+🚉 Porter Booking
+🤖 AI Luggage Scanner
+💳 Payment Screen
+✅ Payment Success
+📜 Booking History
+👤 User Profile
+🛠️ Tech Stack
 
-### 📦 Booking System
+Technology	Description
+Language	Java
+IDE	Android Studio
+UI Design	XML + Material Design Components
+Authentication	Firebase Authentication
+Maps	Google Maps SDK
+QR Code	ZXing Library
+Animations	Lottie Animations
+Image Processing	ML Kit / AI Scanner
+Database	Firebase 
 
-* Porter Booking Interface
-* Booking History
-* Dynamic Fare Estimation
-* Booking Confirmation
+🚀 Upcoming Features
+💰 Wallet Payment System
+🔔 Push Notifications
+👷 Real-Time Porter Availability
+📡 Live Porter Tracking
+💬 In-App Chat
+📞 In-App Calling
+📍 Live Booking Status
+🎟 Digital Booking Receipts
+🎯 Project Goal
 
-### 💳 Payments
-
-* Payment Gateway UI
-* Payment Success Confirmation
-* Booking Receipt Screen
-
----
-
-## 📱 Application Screens
-
-* 🔐 Login
-* 📝 Register
-* 🏠 Home Dashboard
-* 📍 Google Maps
-* 🚉 Porter Booking
-* 👤 User Profile
-* 📜 Booking History
-* 💳 Payment
-* ✅ Payment Success
-
----
-
-## 🛠️ Tech Stack
-
-* **Language:** Java
-* **IDE:** Android Studio
-* **UI:** XML & Material Design Components
-* **Backend:** Firebase Authentication
-* **Maps:** Google Maps SDK
-* **Database:** Firebase (Planned/Upcoming)
-
----
-
-## 🚀 Upcoming Features
-
-* 🔥 Firebase Firestore Database Integration
-* 👷 Real-Time Porter Availability
-* 📡 Live Porter Tracking
-* 🤖 AI-Based Luggage Assistance
-* 💳 Online Payment Gateway Integration
-* 🔔 Push Notifications
-* ⭐ Porter Ratings & Reviews
-* 📞 In-App Calling & Chat
-* 📍 Live Booking Status Updates
-
----
-
-## 🎯 Project Goal
-
-The goal of **CoolieConnect** is to digitize railway porter services by providing passengers with a secure, efficient, and user-friendly platform to:
-
-* Book railway porters instantly
-* View nearby porter availability
-* Select pickup and destination locations
-* Estimate fares before booking
-* Track booking status
-* Manage booking history
-* Make secure online payments
-
----
-
-## 📂 Project Status
+The objective of CoolieConnect is to modernize railway porter services by providing passengers with a secure, intelligent, and efficient platform to:
+Book railway porters instantly
+Estimate fares before booking
+Use AI to determine luggage handling requirements
+Complete secure QR-based payments
+View booking history
+Manage user profiles
+Receive booking confirmations
+Improve passenger convenience at railway stations
 
 | Module                         | Status         |
 | ------------------------------ | -------------- |
@@ -108,16 +99,24 @@ The goal of **CoolieConnect** is to digitize railway porter services by providin
 | 👤 User Registration           | ✅ Completed    |
 | 🔑 User Login                  | ✅ Completed    |
 | 📍 Google Maps Integration     | ✅ Completed    |
-| 📦 Booking Module              | ✅ Completed    |
+| 🚉 Porter Booking Module       | ✅ Completed    |
+| 🤖 AI-Based Luggage Assistance | ✅ Completed    |
 | 💳 Payment Gateway Integration | ✅ Completed    |
-| 👷 Real-Time Porter Tracking   | ✅ Completed    |
-| 🤖 AI-Based Luggage Assistance | ✅ Completed    |         
-| 🔔 Push Notifications          | ⏳ Planned      |
+| 📜 Booking History             | ✅ Completed    |
+| 👤 User Profile                | ✅ Completed    |
+| 💰 Wallet Payment              | 🚧 In Progress |
+| 🔔 Push Notifications          | 🚧 In Progress |
+| 🔥 Firebase Firestore Database |  ✅ Completed   |
+| 📡 Live Porter Tracking        | 🚧 Planned     |
+| ⭐ Ratings & Reviews            | 🚧 Planned     |
 
----
+📋 Requirements
+Android Studio Hedgehog or later
+Android SDK 24+
+Java 8+
+Firebase Project
+Google Maps API Key
+Internet Connection
 
-## 🌟 Future Vision
-
-CoolieConnect aims to become a complete smart railway porter booking solution by combining location services, real-time tracking, secure authentication, AI-powered assistance, and digital payments to improve the travel experience for railway passengers across India.
-
-
+🌟 Future Vision 
+CoolieConnect aims to become a complete smart railway porter booking solution by combining location services, real-time tracking, secure authentication, AI-powered assistance, and digital payments to improve the travel experience for railway passengers across India. i will add push nitification and wallet payment
