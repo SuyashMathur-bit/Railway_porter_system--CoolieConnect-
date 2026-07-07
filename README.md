@@ -192,9 +192,8 @@ CoolieConnect aims to modernize railway porter services by providing passengers 
 | 🔔 Push Notifications | ✅ Completed |
 | 📜 Booking History | ✅ Completed |
 | 👤 User Profile | ✅ Completed |
-| 💰 Wallet Payment | 🚧 In Progress |
+| 💰 Wallet Payment | ✅ Completed  |
 | 📡 Live Porter Tracking | 🚧 Planned |
-| ⭐ Ratings & Reviews | 🚧 Planned |
 | 💬 In-App Chat | 🚧 Planned |
 
 ---
