@@ -291,8 +291,8 @@ Android Developer | Java | Firebase | Problem Solver
 https://github.com/SuyashMathur-bit
 
 **LinkedIn**
-linkedin.com/in/suyash-mathur
 
+https://www.linkedin.com/in/suyash-mathur/
 ---
 ---
 
