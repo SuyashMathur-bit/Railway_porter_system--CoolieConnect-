@@ -1,116 +1,139 @@
 # 🚉 CoolieConnect – Smart Railway Porter Booking System
 
-> **CoolieConnect** is a modern Android application that digitizes traditional railway porter (coolie) services by enabling passengers to book porters, estimate fares, scan luggage using AI, make secure digital payments, and manage bookings seamlessly. The application leverages **Firebase**, **Google Maps**, **AI-powered luggage detection**, **QR-based payments**, and **real-time notifications** to enhance the railway travel experience.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Language-Java-orange" />
+  <img src="https://img.shields.io/badge/Backend-Firebase-FFCA28?logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Database-Firestore-blue" />
+  <img src="https://img.shields.io/badge/Status-Stable-success" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
+
+<p align="center">
+Digitizing traditional railway porter (coolie) services with AI-powered luggage estimation, secure authentication, QR-based booking verification, wallet payments, and Firebase integration.
+</p>
 
 ---
 
-## 📌 Overview
+## 📖 Overview
 
-CoolieConnect replaces the traditional manual porter booking process with a smart Android application. Passengers can register, log in securely, select pickup and destination locations, estimate fares dynamically, use AI-based luggage assistance, complete QR-based payments, receive instant notifications, and access their booking history—all from a single platform.
+**CoolieConnect** is an Android application designed to modernize railway porter services by allowing passengers to digitally book porters within railway stations.
+
+The application offers a smooth and secure booking experience through Firebase Authentication, AI-powered luggage estimation, QR-based verification, wallet payments, real-time notifications, and booking history.
+
+---
+
+# 📥 Download APK
+
+### 👉 Latest Version
+
+**https://github.com/SuyashMathur-bit/Railway_porter_system--CoolieConnect-/releases/latest**
 
 ---
 
 # ✨ Features
 
-## 🔐 User Authentication
+## 🔐 Authentication
 - Firebase Authentication
-- Secure User Registration
-- User Login
+- User Registration
+- Secure Login
+- Forgot Password
 - Session Management
-- User Profile
 
 ---
 
-## 📍 Google Maps Integration
-- Google Maps SDK
-- Railway Station Navigation
-- Pickup Location Selection
-- Destination Selection
-- Interactive Map Support
-
----
-
-## 🚉 Smart Porter Booking
+## 🚉 Porter Booking
 - Digital Porter Booking
-- Dynamic Fare Calculation
+- Pickup & Destination Selection
 - Booking Confirmation
-- Booking History
-- User-Friendly Booking Interface
+- Booking Status
 
 ---
 
-## 🤖 AI-Based Luggage Assistance
-- AI-powered luggage scanner
-- Detects luggage count
-- Recommends the required number of porters
-- Faster and smarter booking experience
+## 🤖 AI Luggage Estimation
+- AI-assisted luggage estimation
+- Smart fare calculation
+- Improved booking accuracy
 
 ---
 
-## 💳 Payment Gateway
-- QR Code Payment
-- Dynamic Payment Amount
-- Secure UPI Payment Flow
-- Payment Countdown Timer
-- Payment Success Confirmation
+## 💳 Digital Wallet
+- Wallet Balance
+- Add Money
+- Wallet Payment
+- Secure Transactions
+
+---
+
+## 💰 Payment System
+- UPI Payment
+- QR Payment
+- Payment Verification
+- Secure Checkout
+
+---
+
+## 📷 QR Code
+- Automatic QR Code Generation
+- Booking Verification
+- Digital Ticket
 
 ---
 
 ## 🔔 Notifications
-- Booking Confirmation Notifications
-- Payment Success Notifications
-- Android Notification Channels
-- Instant User Alerts
+- Booking Confirmation
+- Payment Success
+- User Notifications
 
 ---
 
-## 🔥 Firebase Integration
-- Firebase Authentication
-- Firebase Realtime Database
-- Store Booking History
-- User Profile Storage
-- Secure Cloud Data Management
+## 📜 Booking History
+- Previous Bookings
+- Payment History
+- Transaction Details
 
 ---
 
-## 👤 User Dashboard
-- User Profile
-- Booking History
-- Previous Transactions
-- Easy Navigation
+## 👤 User Profile
+- Edit Profile
+- Account Management
+- Logout
 
 ---
 
-# 📱 Application Screens
+# 🛠 Tech Stack
 
-- 🔐 Login
-- 📝 Register
-- 🏠 Home Dashboard
-- 📍 Google Maps
-- 🚉 Porter Booking
-- 🤖 AI Luggage Scanner
-- 💳 QR Payment
-- ✅ Payment Success
-- 🔔 Notifications
-- 📜 Booking History
-- 👤 User Profile
-
----
-
-# 🛠️ Tech Stack
-
-| Technology | Description |
-|------------|-------------|
+| Category | Technology |
+|----------|------------|
 | Language | Java |
 | IDE | Android Studio |
-| UI | XML + Material Design Components |
+| Backend | Firebase |
 | Authentication | Firebase Authentication |
-| Database | Firebase Realtime Database |
-| Maps | Google Maps SDK |
+| Database | Cloud Firestore |
+| Notifications | Firebase Cloud Messaging |
 | QR Code | ZXing Library |
-| AI Scanner | Google ML Kit / AI Image Processing |
-| Notifications | Android Notification Manager |
-| Animations | Lottie Animations |
+| UI | XML + Material Design |
+| Version Control | Git & GitHub |
+
+---
+
+# 📱 Application Screenshots
+
+| Login | Home |
+|-------|------|
+| ![](Screenshot%202026-06-14%20195356.png) | ![](Screenshot%202026-07-02%20220307.png) |
+
+| AI Scanner | Wallet |
+|------------|--------|
+| ![](Screenshot%202026-07-03%20221521.png) | ![](Screenshot%202026-07-06%20215842.png) |
+
+| Payment | Payment Success |
+|----------|-----------------|
+| ![](Screenshot%202026-06-14%20195435.png) | ![](Screenshot%202026-06-14%20195444.png) |
+
+| Booking History | Profile |
+|-----------------|---------|
+| ![](Screenshot%202026-06-14%20195457.png) | ![](Screenshot%202026-06-14%20195426.png) |
 
 ---
 
@@ -120,114 +143,162 @@ CoolieConnect replaces the traditional manual porter booking process with a smar
 CoolieConnect
 │
 ├── Authentication
-│   ├── Login
-│   └── Register
-│
-├── Dashboard
-│
-├── Google Maps
-│
-├── AI Luggage Scanner
-│
-├── Porter Booking
-│
+├── Booking
+├── Wallet
+├── QR Code
 ├── Payment
-│   ├── QR Payment
-│   ├── Payment Timer
-│   └── Payment Success
-│
+├── AI Scanner
 ├── Notifications
-│
-├── Firebase Database
-│
 ├── Booking History
-│
-└── User Profile
+├── Profile
+└── Firebase Integration
 ```
 
 ---
 
-# 🚀 Upcoming Features
+# ⚙️ Installation
 
-- 💰 Wallet Payment System
-- 👷 Live Porter Availability
-- 📡 Real-Time Porter Tracking
-- ⭐ Porter Ratings & Reviews
-- 💬 In-App Chat
-- 📞 In-App Calling
-- 🎟 Digital Booking Receipt
-- 🌐 Multi-language Support
-- 📊 Admin Dashboard
+## Clone Repository
 
----
+```bash
+git clone https://github.com/SuyashMathur-bit/Railway_porter_system--CoolieConnect-.git
+```
 
-# 🎯 Project Goal
+Open the project in **Android Studio**.
 
-CoolieConnect aims to modernize railway porter services by providing passengers with a secure, intelligent, and efficient platform that enables them to:
+Sync Gradle dependencies.
 
-- Book railway porters instantly
-- Estimate fares before booking
-- Use AI to analyze luggage
-- Complete secure QR-based payments
-- Receive instant booking notifications
-- View booking history
-- Manage profiles
-- Improve passenger convenience at railway stations
+Add your Firebase configuration file:
+
+```
+google-services.json
+```
+
+Run the application.
 
 ---
 
-# 📊 Project Status
+# 🚀 Application Workflow
 
-| Module | Status |
-|---------|--------|
-| 🎨 Frontend UI | ✅ Completed |
-| 🔐 Firebase Authentication | ✅ Completed |
-| 🔥 Firebase Realtime Database | ✅ Completed |
-| 👤 User Registration | ✅ Completed |
-| 🔑 User Login | ✅ Completed |
-| 📍 Google Maps Integration | ✅ Completed |
-| 🚉 Porter Booking Module | ✅ Completed |
-| 🤖 AI-Based Luggage Assistance | ✅ Completed |
-| 💳 QR Payment Gateway | ✅ Completed |
-| 🔔 Push Notifications | ✅ Completed |
-| 📜 Booking History | ✅ Completed |
-| 👤 User Profile | ✅ Completed |
-| 💰 Wallet Payment | ✅ Completed  |
-| 📡 Live Porter Tracking | 🚧 Planned |
-| 💬 In-App Chat | 🚧 Planned |
-
----
-
-# 📸 Screenshots
-
-Add screenshots of:
-
-- Login
-- Register
-- Home Dashboard
-- Google Maps
-- Porter Booking
-- AI Luggage Scanner
-- QR Payment
-- Payment Success
-- Notifications
-- Booking History
-- User Profile
----
-
-# 📋 Requirements
-
-- Android Studio (Latest Version)
-- Android SDK 24+
-- Java 8+
-- Firebase Project
-- Google Maps API Key
-- Internet Connection
+```
+User Login
+      │
+      ▼
+Book Porter
+      │
+      ▼
+AI Luggage Estimation
+      │
+      ▼
+Wallet / UPI Payment
+      │
+      ▼
+QR Code Generation
+      │
+      ▼
+Booking Confirmation
+      │
+      ▼
+Notification Sent
+      │
+      ▼
+Booking Stored in Firebase
+```
 
 ---
 
-# 🌟 Future Vision
+# 📌 Future Enhancements
 
-CoolieConnect aims to become India's leading smart railway porter booking platform by integrating AI-powered luggage analysis, real-time porter tracking, secure digital payments, cloud-based services, and intelligent booking management to improve the travel experience for millions of railway passengers.
+- Live Porter Tracking
+- Google Maps Integration
+- Railway API Integration
+- Porter Rating & Reviews
+- Multi-language Support
+- SOS Emergency Feature
+- Voice Assistant
+- Admin Dashboard
+
+---
+
+# 🎯 Project Objectives
+
+- Digitize railway porter services.
+- Simplify porter booking.
+- Reduce passenger waiting time.
+- Enable secure cashless payments.
+- Improve passenger convenience.
+- Modernize railway station services.
+
+---
+
+# 🏆 Key Highlights
+
+- ✅ Firebase Authentication
+- ✅ Firestore Database
+- ✅ Wallet System
+- ✅ QR Code Verification
+- ✅ AI Luggage Estimation
+- ✅ Push Notifications
+- ✅ Booking History
+- ✅ Material Design UI
+- ✅ Secure Payment Flow
+
+---
+
+# 📊 Tech Architecture
+
+```
+Android App
+      │
+      ▼
+Firebase Authentication
+      │
+      ▼
+Cloud Firestore
+      │
+      ▼
+Booking & Wallet Data
+      │
+      ▼
+Firebase Cloud Messaging
+      │
+      ▼
+Notifications
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+---
+
+# 👨‍💻 Developer
+
+## Suyash Mathur
+
+Android Developer | Java | Firebase | Problem Solver
+
+**GitHub**
+
+https://github.com/SuyashMathur-bit
+
+**LinkedIn**
+
+YOUR_LINKEDIN_URL
+
+---
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
 
 ---
